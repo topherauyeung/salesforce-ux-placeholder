@@ -1,0 +1,44 @@
+/* ==========================================================================
+   QUERIES
+   ========================================================================== */
+
+/*
+
+   Mixin for media queries.
+   Use like this:
+
+   @include break(medium) {
+     .class-name { color: red; }
+   }
+
+
+ */
+
+@mixin break($point) {
+  @if $point == small {
+    @media screen and (max-width: $bp-small) {
+      @content;
+    }
+  }
+  @else if $point == medium {
+    @media screen and (min-width: $bp-small) and (max-width: $bp-med) {
+      @content;
+    }
+  }
+  @else if $point == large {
+    @media screen and (min-width: $bp-med) and (max-width: $bp-large)  {
+      @content;
+    }
+  }
+  @else if $point == not-large {
+    @media screen and (max-width: $bp-large)  {
+      @content;
+    }
+  }
+  @else if $point == not-medium {
+    @media screen and (max-width: $bp-med)  {
+      @content;
+    }
+  }
+}
+
