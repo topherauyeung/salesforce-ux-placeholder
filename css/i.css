@@ -147,6 +147,7 @@ img, canvas, iframe, video, svg { max-width: 100%; }
 /* Type Scale ========================================================================== */
 /** 12 & 16 as roots then powers of two. */
 /* Breakpoints ========================================================================== */
+/* Spacing ========================================================================== */
 /* ========================================================================== QUERIES ========================================================================== */
 /*
  Mixin for media queries. Use like this:
@@ -412,6 +413,8 @@ img, canvas, iframe, video, svg { max-width: 100%; }
 \*------------------------------------*/
 /** Pull classes, to move grid items back to the left by certain amounts. */
 /* ========================================================================== TYPE - Copy - Headings ========================================================================== */
+body { font-family: "proxima-nova"; }
+
 /* Copy ========================================================================== */
 p { font-size: 24px; }
 
@@ -434,5 +437,258 @@ h6, .h6 { font-size: 12px; }
 
 blockquote { font-size: 48px; }
 
+/* ========================================================================== HELPER - Single purpose helper classes - Padding, margins ========================================================================== */
+/* Padding */
+.pan { padding: 0; }
+
+.paxs { padding: 6px; }
+
+.pas { padding: 12px; }
+
+.pam { padding: 16px; }
+
+.pal { padding: 24px; }
+
+.paxl { padding: 32px; }
+
+.paxxl { padding: 48px; }
+
+.pahuge { padding: 64px; }
+
+.ptn { padding-top: 0; }
+
+.ptxs { padding-top: 6px; }
+
+.pts { padding-top: 12px; }
+
+.ptm { padding-top: 16px; }
+
+.ptl { padding-top: 24px; }
+
+.ptxl { padding-top: 32px; }
+
+.ptxxl { padding-top: 48px; }
+
+.pthuge { padding-top: 64px; }
+
+.pbn { padding-bottom: 0; }
+
+.pbxs { padding-bottom: 6px; }
+
+.pbs { padding-bottom: 12px; }
+
+.pbm { padding-bottom: 16px; }
+
+.pbl { padding-bottom: 24px; }
+
+.pbxl { padding-bottom: 32px; }
+
+.pbxxl { padding-bottom: 48px; }
+
+.pbhuge { padding-bottom: 64px; }
+
+.pln { padding-left: 0; }
+
+.plxs { padding-left: 6px; }
+
+.pls { padding-left: 12px; }
+
+.plm { padding-left: 16px; }
+
+.pll { padding-left: 24px; }
+
+.plxl { padding-left: 32px; }
+
+.plxxl { padding-left: 48px; }
+
+.plhuge { padding-left: 64px; }
+
+.prn { padding-right: 0; }
+
+.prxs { padding-right: 6px; }
+
+.prs { padding-right: 12px; }
+
+.prm { padding-right: 16px; }
+
+.prl { padding-right: 24px; }
+
+.prxl { padding-right: 32px; }
+
+.prxxl { padding-right: 48px; }
+
+.prhuge { padding-right: 64px; }
+
+.pvn { padding-top: 0; padding-bottom: 0; }
+
+.pvxs { padding-top: 6px; padding-bottom: 6px; }
+
+.pvs { padding-top: 12px; padding-bottom: 12px; }
+
+.pvm { padding-top: 16px; padding-bottom: 16px; }
+
+.pvl { padding-top: 24px; padding-bottom: 24px; }
+
+.pvxl { padding-top: 32px; padding-bottom: 32px; }
+
+.pvxxl { padding-top: 48px; padding-bottom: 48px; }
+
+.pvhuge { padding-top: 64px; padding-bottom: 64px; }
+
+.phn { padding-left: 0; padding-right: 0; }
+
+.phxs { padding-left: 6px; padding-right: 6px; }
+
+.phs { padding-left: 12px; padding-right: 12px; }
+
+.phm { padding-left: 16px; padding-right: 16px; }
+
+.phl { padding-left: 24px; padding-right: 24px; }
+
+.phxl { padding-left: 32px; padding-right: 32px; }
+
+.phxxl { padding-left: 48px; padding-right: 48px; }
+
+/* Margins */
+.man { margin: 0; }
+
+.maxs { margin: 6px; }
+
+.mas { margin: 12px; }
+
+.mam { margin: 16px; }
+
+.mal { margin: 24px; }
+
+.maxl { margin: 32px; }
+
+.maxxl { margin: 48px; }
+
+.mahuge { margin: 64px; }
+
+.mtn { margin-top: 0; }
+
+.mtxs { margin-top: 6px; }
+
+.mts { margin-top: 12px; }
+
+.mtm { margin-top: 16px; }
+
+.mtl { margin-top: 24px; }
+
+.mtxl { margin-top: 32px; }
+
+.mtxxl { margin-top: 48px; }
+
+.mthuge { margin-top: 64px; }
+
+.mbn { margin-bottom: 0; }
+
+.mbxs { margin-bottom: 6px; }
+
+.mbs { margin-bottom: 12px; }
+
+.mbm { margin-bottom: 16px; }
+
+.mbl { margin-bottom: 24px; }
+
+.mbxl { margin-bottom: 32px; }
+
+.mbxxl { margin-bottom: 48px; }
+
+.mbhuge { margin-bottom: 64px; }
+
+.mln { margin-left: 0; }
+
+.mlxs { margin-left: 6px; }
+
+.mls { margin-left: 12px; }
+
+.mlm { margin-left: 16px; }
+
+.mll { margin-left: 24px; }
+
+.mlxl { margin-left: 32px; }
+
+.mlxxl { margin-left: 48px; }
+
+.mlhuge { margin-left: 64px; }
+
+.mrn { margin-right: 0; }
+
+.mrxs { margin-right: 6px; }
+
+.mrs { margin-right: 12px; }
+
+.mrm { margin-right: 16px; }
+
+.mrl { margin-right: 24px; }
+
+.mrxl { margin-right: 32px; }
+
+.mrxxl { margin-right: 48px; }
+
+.mrhuge { margin-right: 64px; }
+
+.mvn { margin-top: 0; margin-bottom: 0; }
+
+.mvxs { margin-top: 6px; margin-bottom: 6px; }
+
+.mvs { margin-top: 12px; margin-bottom: 12px; }
+
+.mvm { margin-top: 16px; margin-bottom: 16px; }
+
+.mvl { margin-top: 24px; margin-bottom: 24px; }
+
+.mvxl { margin-top: 32px; margin-bottom: 32px; }
+
+.mvxxl { margin-top: 48px; margin-bottom: 48px; }
+
+.mvhuge { margin-top: 64px; margin-bottom: 64px; }
+
+.mhn { margin-left: 0; margin-right: 0; }
+
+.mhxs { margin-left: 6px; margin-right: 6px; }
+
+.mhs { margin-left: 12px; margin-right: 12px; }
+
+.mhm { margin-left: 16px; margin-right: 16px; }
+
+.mhl { margin-left: 24px; margin-right: 24px; }
+
+.mhxl { margin-left: 32px; margin-right: 32px; }
+
+.mhxxl { margin-left: 48px; margin-right: 48px; }
+
+.mhhuge { margin-left: 64px; margin-right: 64px; }
+
+/* Text-Align Helpers */
+.talign--center { text-align: center; }
+
+.talign--left { text-align: left; }
+
+.talign--right { text-align: right; }
+
+/* links.css - v0.0.1 - "Smarter defaults for links" License MIT
+*/
+a { -webkit-transition: color .4s; transition: color .4s; color: #265C83; }
+
+a:link, a:visited { color: #265C83; }
+
+a:hover { color: #7FDBFF; }
+
+a:active { -webkit-transition: color .3s; transition: color .3s; color: #007BE6; }
+
+.link { text-decoration: none; }
+
 /* Add your sass to sass/_styles.scss */
 /* ========================================================================== Site styles ========================================================================== */
+.header--style-1 { width: 100%; text-align: center; font-size: 24px; letter-spacing: 1px; text-transform: lowercase; margin-bottom: 0px; font-weight: 100; color: #999999; }
+
+.header--style-2 { width: 100%; text-align: center; font-size: 32px; letter-spacing: 1px; text-transform: lowercase; margin-top: 0px; margin-bottom: 50px; font-weight: 300; color: #222222; }
+
+.gradient { padding: 0; width: 320px; margin: 150px auto 0px; max-height: 250px; }
+
+.social { margin: 0 auto 0; width: 100%; text-align: center; }
+
+.social--img { display: inline-block; margin: 0 20px; }
